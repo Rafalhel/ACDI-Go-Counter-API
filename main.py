@@ -23,6 +23,9 @@ for i in oidsGeral:
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return 'Home Page Route'
 
 @app.route('/oid')
 def oid():
