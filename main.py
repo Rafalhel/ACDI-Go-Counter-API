@@ -9,7 +9,7 @@ print(oids)
 retornarJson = []
 nomes = ['person_id','nomeFabricante','OIDFabricante','nomeModelo','modelo','numeroDeSerie','totalGeral','totalCopiasCor','totalCopiasMono','totalCopias',
         'totalImpressaoCor','totalImpressaoMono','totalImpressao','totalFax','totalScanCor','totalScanMono','totalScan']
-reteste2 = dict(zip(nomes,oids[0]))
+# reteste2 = dict(zip(nomes,oids[0]))
 for i in oids:
     retornarJson.append(dict(zip(nomes,i)))
 
