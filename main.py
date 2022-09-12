@@ -80,4 +80,4 @@ def removeOidGeral():
     return jsonify({'message': 'oid removido com sucesso'})
 
 
-app.run()
+# app.run()
