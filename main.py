@@ -79,4 +79,5 @@ def removeOidGeral():
     dataBaseGeral().delete(atributo['totalGeral'])
     return jsonify({'message': 'oid removido com sucesso'})
 
+
 app.run()
